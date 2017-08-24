@@ -1,0 +1,11 @@
+{
+    "name": "vendor/php-project2",
+    "description": "Описание проекта PhpProject2.",
+    "authors": [
+        {
+            "name": "archy",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {}
+}
