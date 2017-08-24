@@ -57,11 +57,23 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
+    
+    
+   <div class="container"> 
+    
+    
     <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= $content ?>
+<div class="row">
+<div class="span3 bs-docs-sidebar">
+<ul class="nav nav-list bs-docs-sidenav affix" style="top: 30px;" data-offset-top="50">
+<li class="active"><a href="#global"><i class="icon-chevron-right"></i> Основные стили</a></li>
+<li class=""><a href="#gridSystem"><i class="icon-chevron-right"></i> Сетка</a></li>
+<li><a href="#fluidGridSystem"><i class="icon-chevron-right"></i> Плавающая сетка</a></li>
+<li><a href="#layouts"><i class="icon-chevron-right"></i> Макеты</a></li>
+<li><a href="#responsive"><i class="icon-chevron-right"></i> Адаптивный дизайн</a></li>
+</ul></div>
+</div>
+</div>
     </div>
 </div>
 
